@@ -5,7 +5,9 @@ Glossary
 
 Common abbreviations in NEST
 ----------------------------
+
 .. glossary::
+ :sorted:
 
  iaf
    integrate and fire
@@ -61,58 +63,55 @@ Common abbreviations in NEST
 Physical units and variable names used for NEST parameters
 ----------------------------------------------------------
 
-.. note::
-
-   all parameters listed here are defined as `type double` in NEST
-
 .. glossary::
+ :sorted:
 
- **time**
-    milliseconds `ms`
+ time
+   milliseconds `ms`
 
  tau_m
-    Membrane time constant in ms
+   Membrane time constant in ms
 
  t_ref
-    Duration of refractory period in ms
+   Duration of refractory period in ms
 
  t_spike
-    point in time of last spike in
+   point in time of last spike in
 
- **capacitance**
-    picofarads `pF`
+ capacitance
+   picofarads `pF`
 
  C_m
-    Capacitance of the membrane in pF
+   Capacitance of the membrane in pF
 
- **current**
-    picoamperes `pA`
+ current
+   picoamperes `pA`
 
  I_e
-    Constant input current in pA.
+   Constant input current in pA.
 
- **conductance**
-    nanosiemens `nS`
+ conductance
+   nanosiemens `nS`
 
-   g_L
-    Leak conductance in nS
+ g_L
+   Leak conductance in nS
 
-   g_K
-    Potassium peak conductance in nS.
+ g_K
+   Potassium peak conductance in nS.
 
-   g_Na
-    Sodium peak conductance in nS.
+ g_Na
+   Sodium peak conductance in nS.
 
- **spike rates**
-    spikes/s
+ spike rates
+   spikes/s
 
- **modulation frequencies**
-    herz `Hz`
+ modulation frequencies
+   herz `Hz`
 
  frequency
-    frequncy in Hz
+   frequncy in Hz
 
- **voltage**
+ voltage
    millivolts `mV`
 
  V_m
@@ -232,14 +231,14 @@ Physical units and variable names used for NEST parameters
   Spike-timing dependent plasticity
 
  Two-timescale adaptive threshold
- 
+
  dead time
- 
+
  refractoriness
    The time before a new action potential can take place.
 
  renewal process
- 
+
  spike train
    A sequence of action potentials
 
@@ -269,7 +268,7 @@ Physical units and variable names used for NEST parameters
    Post-synatpic current
 
  transient
- 
+
  exponential link function
 
  feedback kernel theta
@@ -293,7 +292,7 @@ Physical units and variable names used for NEST parameters
  intrinsic current
 
  in-degree
- 
+
  synaptic efficacy
    The extent to which a presynaptic neuron affects a postsynaptic neuron.
 
